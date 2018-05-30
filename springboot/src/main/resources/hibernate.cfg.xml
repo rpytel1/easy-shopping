@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <property name = "hibernate.dialect">
+            org.hibernate.dialect.MySQLDialect
+        </property>
+
+        <!-- Assume test is the database name -->
+
+        <property name = "hibernate.connection.url">
+            jdbc:mysql://localhost:3306/wpam
+        </property>
+
+        <property name = "hibernate.connection.driver_class">
+            com.mysql.jdbc.Driver
+        </property>
+
+        <property name = "hibernate.connection.username">
+            test
+        </property>
+
+        <!--<property name="hibernate.id.new_generator_mappings">false</property>-->
+
+        <property name = "hibernate.connection.password">
+            abcd
+        </property>
+
+        <property name="c3p0.timeout">180</property> <!-- seconds -->
+
+        <mapping class="com.wpam.model.User"/>
+        <mapping class="com.wpam.model.ListEntry"/>
+
+
+
+
+    </session-factory>
+</hibernate-configuration>
