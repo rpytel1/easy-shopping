@@ -1,23 +1,25 @@
 //
-//  ViewController.swift
+//  AddProductViewController.swift
 //  easy-shoping
 //
-//  Created by Rafał Pytel on 21.05.2018.
+//  Created by Rafał Pytel on 26.05.2018.
 //  Copyright © 2018 Rafał Pytel. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class AddProductViewController: UIViewController {
+    var userLogin : String!
 
-    @IBOutlet weak var loginTextfield: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var productTextArea: UITextField!
+    @IBOutlet weak var quantityTextArea: UITextField!
+    @IBOutlet weak var addProductButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("view controller")
+        print("Add view controller"+userLogin)
 
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,18 +27,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func loginToApp(_ sender: Any) {
+
+    @IBAction func addProduct(_ sender: Any) {
         print("Add product!")
-        let url = URL(string: "http://192.168.1.3:8000/login")!
+        let url = URL(string: "http://192.168.1.3:8000/addProduct")!
         var request = URLRequest(url: url)
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.httpMethod = "POST"
         
-        let parameters = ["login": loginTextfield.text!,"password":passwordTextField.text!]
+        let parameters = ["product": productTextArea.text!,"quantity":quantityTextArea.text!,"owner":userLogin]
         print(parameters)
         guard let httpBody = try? JSONSerialization.data(withJSONObject: parameters, options: [])else{return}
+        do{
+             let json = try JSONSerialization.jsonObject(with: httpBody, options: [])
+            print(json)
+        }catch{
+            print(error)
+        }
         request.httpBody = httpBody
-        var login = loginTextfield.text!
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {                                                 // check for fundamental networking error
                 print("error=\(error)")
@@ -49,22 +57,17 @@ class ViewController: UIViewController {
             
             let responseString = String(data: data, encoding: .utf8)
             print("responseString = \(responseString)")
-            let canPerformSegue = Bool(responseString!)!
-            if(canPerformSegue){
-                OperationQueue.main.addOperation {
-                    self.performSegue(withIdentifier: "listViewSegue",sender: login)
-                }
-            }
         }
         task.resume()
     }
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "listViewSegue" {
-            let listViewController = segue.destination as! ListViewController
-            let login = sender as! String
-            listViewController.userLogin = login
-        }
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
     }
+    */
 
 }
-

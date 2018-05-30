@@ -12,6 +12,23 @@
 		502274D720B3316A00510828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502274D520B3316A00510828 /* Main.storyboard */; };
 		502274D920B3316C00510828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502274D820B3316C00510828 /* Assets.xcassets */; };
 		502274DC20B3316C00510828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502274DA20B3316C00510828 /* LaunchScreen.storyboard */; };
+		50C4BE4C20B9CFBF008054D0 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4BE4B20B9CFBF008054D0 /* ListViewController.swift */; };
+		50C4BE4E20B9D02D008054D0 /* SendFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4BE4D20B9D02D008054D0 /* SendFriendViewController.swift */; };
+		50C4BE5020B9D055008054D0 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4BE4F20B9D055008054D0 /* AddProductViewController.swift */; };
+		50C7E19720BAE5AD00E14DA7 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7E19620BAE5AD00E14DA7 /* CameraViewController.swift */; };
+		50C7E19920BDB20800E14DA7 /* DecideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C7E19820BDB20800E14DA7 /* DecideViewController.swift */; };
+		50C7E1A220BDCA0000E14DA7 /* photo-b.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E19C20BDC9FF00E14DA7 /* photo-b.png */; };
+		50C7E1A320BDCA0000E14DA7 /* shopping-cart-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E19D20BDC9FF00E14DA7 /* shopping-cart-md.png */; };
+		50C7E1A420BDCA0000E14DA7 /* camera-b.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E19E20BDC9FF00E14DA7 /* camera-b.png */; };
+		50C7E1A520BDCA0000E14DA7 /* send-arrow-b.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E19F20BDC9FF00E14DA7 /* send-arrow-b.png */; };
+		50C7E1A620BDCA0000E14DA7 /* gallery-b.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E1A020BDC9FF00E14DA7 /* gallery-b.png */; };
+		50C7E1A720BDCA0000E14DA7 /* send-b.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E1A120BDCA0000E14DA7 /* send-b.png */; };
+		50C7E1AC20BDCC0700E14DA7 /* add-w.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E1A820BDCC0600E14DA7 /* add-w.png */; };
+		50C7E1AD20BDCC0700E14DA7 /* camera-w.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E1A920BDCC0600E14DA7 /* camera-w.png */; };
+		50C7E1AE20BDCC0700E14DA7 /* job-list-w.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E1AA20BDCC0600E14DA7 /* job-list-w.png */; };
+		50C7E1AF20BDCC0700E14DA7 /* gallery-w.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E1AB20BDCC0700E14DA7 /* gallery-w.png */; };
+		50C7E1B120BDCD1300E14DA7 /* send-file-w.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E1B020BDCD1200E14DA7 /* send-file-w.png */; };
+		50C7E1B320BDCD7E00E14DA7 /* add-column-w.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C7E1B220BDCD7E00E14DA7 /* add-column-w.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +39,23 @@
 		502274D820B3316C00510828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		502274DB20B3316C00510828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		502274DD20B3316C00510828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C4BE4B20B9CFBF008054D0 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		50C4BE4D20B9D02D008054D0 /* SendFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendFriendViewController.swift; sourceTree = "<group>"; };
+		50C4BE4F20B9D055008054D0 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		50C7E19620BAE5AD00E14DA7 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		50C7E19820BDB20800E14DA7 /* DecideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecideViewController.swift; sourceTree = "<group>"; };
+		50C7E19C20BDC9FF00E14DA7 /* photo-b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-b.png"; path = "../../Downloads/photo-b.png"; sourceTree = "<group>"; };
+		50C7E19D20BDC9FF00E14DA7 /* shopping-cart-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shopping-cart-md.png"; path = "../../Downloads/shopping-cart-md.png"; sourceTree = "<group>"; };
+		50C7E19E20BDC9FF00E14DA7 /* camera-b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-b.png"; path = "../../Downloads/camera-b.png"; sourceTree = "<group>"; };
+		50C7E19F20BDC9FF00E14DA7 /* send-arrow-b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "send-arrow-b.png"; path = "../../Downloads/send-arrow-b.png"; sourceTree = "<group>"; };
+		50C7E1A020BDC9FF00E14DA7 /* gallery-b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gallery-b.png"; path = "../../Downloads/gallery-b.png"; sourceTree = "<group>"; };
+		50C7E1A120BDCA0000E14DA7 /* send-b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "send-b.png"; path = "../../Downloads/send-b.png"; sourceTree = "<group>"; };
+		50C7E1A820BDCC0600E14DA7 /* add-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-w.png"; path = "../../Downloads/add-w.png"; sourceTree = "<group>"; };
+		50C7E1A920BDCC0600E14DA7 /* camera-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-w.png"; path = "../../Downloads/camera-w.png"; sourceTree = "<group>"; };
+		50C7E1AA20BDCC0600E14DA7 /* job-list-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "job-list-w.png"; path = "../../Downloads/job-list-w.png"; sourceTree = "<group>"; };
+		50C7E1AB20BDCC0700E14DA7 /* gallery-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gallery-w.png"; path = "../../Downloads/gallery-w.png"; sourceTree = "<group>"; };
+		50C7E1B020BDCD1200E14DA7 /* send-file-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "send-file-w.png"; path = "../../Downloads/send-file-w.png"; sourceTree = "<group>"; };
+		50C7E1B220BDCD7E00E14DA7 /* add-column-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-column-w.png"; path = "../../Downloads/add-column-w.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +88,29 @@
 		502274D020B3316A00510828 /* easy-shoping */ = {
 			isa = PBXGroup;
 			children = (
+				50C7E1B220BDCD7E00E14DA7 /* add-column-w.png */,
+				50C7E1B020BDCD1200E14DA7 /* send-file-w.png */,
+				50C7E1A820BDCC0600E14DA7 /* add-w.png */,
+				50C7E1A920BDCC0600E14DA7 /* camera-w.png */,
+				50C7E1AB20BDCC0700E14DA7 /* gallery-w.png */,
+				50C7E1AA20BDCC0600E14DA7 /* job-list-w.png */,
+				50C7E19E20BDC9FF00E14DA7 /* camera-b.png */,
+				50C7E19F20BDC9FF00E14DA7 /* send-arrow-b.png */,
+				50C7E19C20BDC9FF00E14DA7 /* photo-b.png */,
+				50C7E1A020BDC9FF00E14DA7 /* gallery-b.png */,
+				50C7E1A120BDCA0000E14DA7 /* send-b.png */,
+				50C7E19D20BDC9FF00E14DA7 /* shopping-cart-md.png */,
 				502274D120B3316A00510828 /* AppDelegate.swift */,
 				502274D320B3316A00510828 /* ViewController.swift */,
 				502274D520B3316A00510828 /* Main.storyboard */,
 				502274D820B3316C00510828 /* Assets.xcassets */,
 				502274DA20B3316C00510828 /* LaunchScreen.storyboard */,
 				502274DD20B3316C00510828 /* Info.plist */,
+				50C4BE4B20B9CFBF008054D0 /* ListViewController.swift */,
+				50C4BE4D20B9D02D008054D0 /* SendFriendViewController.swift */,
+				50C4BE4F20B9D055008054D0 /* AddProductViewController.swift */,
+				50C7E19620BAE5AD00E14DA7 /* CameraViewController.swift */,
+				50C7E19820BDB20800E14DA7 /* DecideViewController.swift */,
 			);
 			path = "easy-shoping";
 			sourceTree = "<group>";
@@ -122,9 +173,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C7E1A220BDCA0000E14DA7 /* photo-b.png in Resources */,
+				50C7E1A720BDCA0000E14DA7 /* send-b.png in Resources */,
+				50C7E1AF20BDCC0700E14DA7 /* gallery-w.png in Resources */,
 				502274DC20B3316C00510828 /* LaunchScreen.storyboard in Resources */,
+				50C7E1A620BDCA0000E14DA7 /* gallery-b.png in Resources */,
+				50C7E1AE20BDCC0700E14DA7 /* job-list-w.png in Resources */,
+				50C7E1A320BDCA0000E14DA7 /* shopping-cart-md.png in Resources */,
 				502274D920B3316C00510828 /* Assets.xcassets in Resources */,
+				50C7E1B120BDCD1300E14DA7 /* send-file-w.png in Resources */,
+				50C7E1AC20BDCC0700E14DA7 /* add-w.png in Resources */,
 				502274D720B3316A00510828 /* Main.storyboard in Resources */,
+				50C7E1AD20BDCC0700E14DA7 /* camera-w.png in Resources */,
+				50C7E1B320BDCD7E00E14DA7 /* add-column-w.png in Resources */,
+				50C7E1A420BDCA0000E14DA7 /* camera-b.png in Resources */,
+				50C7E1A520BDCA0000E14DA7 /* send-arrow-b.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +200,11 @@
 			files = (
 				502274D420B3316A00510828 /* ViewController.swift in Sources */,
 				502274D220B3316A00510828 /* AppDelegate.swift in Sources */,
+				50C7E19920BDB20800E14DA7 /* DecideViewController.swift in Sources */,
+				50C4BE5020B9D055008054D0 /* AddProductViewController.swift in Sources */,
+				50C4BE4E20B9D02D008054D0 /* SendFriendViewController.swift in Sources */,
+				50C4BE4C20B9CFBF008054D0 /* ListViewController.swift in Sources */,
+				50C7E19720BAE5AD00E14DA7 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +349,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V87JNVLSND;
 				INFOPLIST_FILE = "easy-shoping/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,7 +359,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "rolfcompany.easy-shoping";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,7 +368,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V87JNVLSND;
 				INFOPLIST_FILE = "easy-shoping/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "rolfcompany.easy-shoping";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
